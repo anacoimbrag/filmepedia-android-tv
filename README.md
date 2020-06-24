@@ -27,4 +27,8 @@ same configurations as smartphone apps, using ADB. Checkout the [docs](https://d
 
 ## Learn 
 
-If you want to know more about developing for Android TV checkout the development [docs](https://developer.android.com/training/tv/start?hl=en) 
+If you want to know more about developing for Android TV checkout the development [docs](https://developer.android.com/training/tv/start?hl=en)
+
+#### Credits
+
+Icon made by [monkik](https://www.flaticon.com/authors/monkik) from [Flaticon](https://www.flaticon.com/) 
