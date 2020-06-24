@@ -8,7 +8,7 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.leanback.app.DetailsSupportFragment
 import androidx.leanback.app.DetailsSupportFragmentBackgroundController
 import androidx.leanback.widget.*
-import com.anacoimbra.android.filmepedia.DetailsPresenter
+import com.anacoimbra.android.filmepedia.presenter.DetailsPresenter
 import com.anacoimbra.android.filmepedia.R
 import com.anacoimbra.android.filmepedia.model.Movie
 import com.bumptech.glide.Glide

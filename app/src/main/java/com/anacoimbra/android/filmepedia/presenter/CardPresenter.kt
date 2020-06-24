@@ -1,9 +1,10 @@
-package com.anacoimbra.android.filmepedia
+package com.anacoimbra.android.filmepedia.presenter
 
 import android.view.ViewGroup
 import androidx.core.content.res.ResourcesCompat
 import androidx.leanback.widget.ImageCardView
 import androidx.leanback.widget.Presenter
+import com.anacoimbra.android.filmepedia.R
 import com.anacoimbra.android.filmepedia.model.Movie
 import com.bumptech.glide.Glide
 

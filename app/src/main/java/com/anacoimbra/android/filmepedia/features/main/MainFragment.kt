@@ -10,7 +10,7 @@ import androidx.leanback.app.BackgroundManager
 import androidx.leanback.app.BrowseSupportFragment
 import androidx.leanback.widget.*
 import androidx.lifecycle.Observer
-import com.anacoimbra.android.filmepedia.CardPresenter
+import com.anacoimbra.android.filmepedia.presenter.CardPresenter
 import com.anacoimbra.android.filmepedia.R
 import com.anacoimbra.android.filmepedia.features.detail.DetailActivity
 import com.anacoimbra.android.filmepedia.model.Movie
@@ -97,7 +97,8 @@ class MainFragment : BrowseSupportFragment() {
             progressBarManager.hide()
             val header = HeaderItem(1L, "Movies")
             val adapter = ArrayObjectAdapter(ListRowPresenter())
-            val cardPresenter = CardPresenter()
+            val cardPresenter =
+                CardPresenter()
 
             val cardsAdapter = ArrayObjectAdapter(cardPresenter)
             it.forEach { movie ->

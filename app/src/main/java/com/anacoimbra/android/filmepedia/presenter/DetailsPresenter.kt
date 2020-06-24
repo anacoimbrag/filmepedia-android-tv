@@ -1,4 +1,4 @@
-package com.anacoimbra.android.filmepedia
+package com.anacoimbra.android.filmepedia.presenter
 
 import android.annotation.SuppressLint
 import androidx.leanback.widget.AbstractDetailsDescriptionPresenter
